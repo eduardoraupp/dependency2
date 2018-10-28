@@ -5,6 +5,9 @@
 	<groupId>com.jenkins</groupId>
 	<artifactId>dependent2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+		<independent>0.0.7-SNAPSHOT</independent>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -15,7 +18,7 @@
 		<dependency>
 			<groupId>com.jenkins</groupId>
 			<artifactId>independent</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${independent}</version>
 		</dependency>
 	</dependencies>
 <distributionManagement>
