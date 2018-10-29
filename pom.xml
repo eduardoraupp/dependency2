@@ -2,13 +2,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.jenkins</groupId>
 	<artifactId>dependent2</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.4-SNAPSHOT</version>
 	<scm>
 		<url>https://github.com/eduardoraupp/dependency2.git</url>
 		<connection>scm:git:git@github.com:eduardoraupp/dependency2.git</connection>
 		<developerConnection>scm:git:git@github.com:eduardoraupp/dependency2.git</developerConnection>
 	<!--	<tag>HEAD</tag>-->
-	  <tag>dependent2-0.0.3</tag>
+	  <tag>HEAD</tag>
   </scm>
 	<properties>
 		<independent>0.0.9</independent>
